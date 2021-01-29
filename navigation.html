@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<body>
+
+  <head>
+    <lang="en">
+      </lang>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+      <title>Raiyan Takrim</title>
+  </head>
+
+
+  <body>
+    <div class="container">
+      <nav id="home">
+        <h1>raiyan</h1>
+        <ul class="navlinks">
+          <li><a href="#firstslide">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div id="firstslide">
+        <div class="firstslidecontainer">
+          <div id="firstslidephoto">
+            <img src="img\shuvo_png.png" alt="mypic" class="mypic">
+          </div>
+
+          <div id="firstslidecontents">
+            <h1>Hi, I'm <span class="myname">Raiyan Takrim.</span></h1>
+            <p> Front-end web developer.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="about">
+        <img src="img\undraw_profile_6l1l.svg" alt="">
+        <div class="aboutcontentcontainer">
+          <div class="aboutcontent">
+            <h1>about me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi repellendus magnam eius est nemo odio ut,
+              perspiciatis quae, eligendi officia adipisci, asperiores temporibus enim aliquam dolor! Possimus debitis sed
+              accusamus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contactcontainer" id="contact">
+
+      <img src="img\undraw_mail_2_tqip.svg" alt="">
+      <form action="" class="contactform">
+        <h1>Contact Me</h1>
+        <label for="">Full Name:</label>
+        <input type="text" name="name" id="name" placeholder="e.g. Raiyan Takrim" required>
+        <label for="">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="e.g. anyone@gmail.com" required>
+        <label for="">Massage:</label>
+        <input type="text" name="massage" id="massage" placeholder="Drop your massage here." maxlength="100" required>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <script>
+      function scroll() {
+        document.getElementById('home').style.position = "fixed";
+      }
+    </script>
+  </body>
+
+  </html>
